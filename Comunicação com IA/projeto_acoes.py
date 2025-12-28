@@ -5,3 +5,5 @@ import yfinance as yf
 _ = load_dotenv(find_dotenv())
 
 cliente = openai.Client()
+
+yf.ticker('ABEV')
