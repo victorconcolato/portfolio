@@ -6,7 +6,7 @@ import plotly.express as px
 st.markdown('# Consulta de Ativos')
 
 acao = st.text_input('Informe o ticker do ativo (ex: PETR4.SA, AAPL, TSLA)')
-periodos = {'1 Dia':'1d','5 Dias':'5d','1 Mês':'1mo','3 Meses':'3mo','6 Meses':'6mo','1 Ano':'1y','2 Anos':'2y','5 Anos':'5y','10 Anos':'10y','Ano Anterior':'ytd','Máximo':'max'}
+periodos = {'5 Dias':'5d','1 Mês':'1mo','3 Meses':'3mo','6 Meses':'6mo','1 Ano':'1y','2 Anos':'2y','5 Anos':'5y','10 Anos':'10y','Ano Anterior':'ytd','Máximo':'max'}
 
 periodo = st.selectbox('Selecione o período',periodos)
 
@@ -77,12 +77,8 @@ if st.button('Consultar'):
                                 y=df_ticket["MME200"],
                                 line=dict(color="cyan", width=1.5),
                                 name="MME 200"))
-                            
-                            
-                    
 
             st.plotly_chart(fig)
-
 
             #Valor por período
             st.markdown(f"### Variação  |  {periodo}")
