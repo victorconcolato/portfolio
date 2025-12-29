@@ -6,7 +6,7 @@ from datetime import datetime as dt
 
 st.markdown("# Comparação de Ativos")
 
-ativo = "PETR4.SA AAPL TSLA"#st.text_input("Informe os tickers (ex: 'PETR4.SA   AAPL   TSLA')")
+ativo = st.text_input("Informe os tickers (ex: 'PETR4.SA   AAPL   TSLA')")
 ativos = ativo.upper().strip()
 st.caption("-> COM espaço, SEM virgulas.")
 st.caption("-> Mínimo de tickers: 02 | Máximo Recomendado: 10")
