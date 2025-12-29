@@ -1,6 +1,6 @@
 streamlit
-yfinance
+yfinance==0.2.36
 pandas
 numpy
-plotly
-openai
+plotly==5.18.0
+openai==0.28
