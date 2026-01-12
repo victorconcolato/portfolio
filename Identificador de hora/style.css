@@ -1,0 +1,41 @@
+  body{
+            background-color: rgb(19, 112, 112);
+        }
+
+        h1{
+            color:white;
+            text-align: center;
+        }
+        #box{
+            background-color: white ;
+            box-shadow: 5px 3px 9px rgb(0, 0, 0);
+            text-align: center;
+            width: 500px;
+            height: 300px;
+            margin: auto;
+            border-radius: 10px;
+            font-size: 20px;
+            
+        }
+        #img{
+            position: relative;
+            
+        }
+        #box>p{
+            padding-top: 10px;
+
+        }
+        footer{
+            color: black;
+            text-align: center;
+            font-size: x-large;}
+        a:link{
+            color: purple;
+            text-decoration: none;
+        }
+        a:visited{
+            color: gray;
+        }
+        a:hover{
+            color: orangered;
+        }
