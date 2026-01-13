@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idades</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body id="corpo">
+
+    <header>
+        <h1>Verificador de Idades</h1>
+    </header>
+
+    <main>
+        <div id="box">
+            <p id="ano">Ano de nascimento: <input type="number" name="ano_nasc" id="ano_nasc"></p>
+
+            <p id="sexo">Sexo: <input type="radio" name="radsex" id="masc" checked><label for="masc">Masculino</label>      <input type="radio" name="radsex" id="fem"><label for="fem">Feminino</label></p>
+            <input type="button" value="Enviar" onclick="resultado()">
+            <div id="resultado">
+                <p id="resposta">
+                    Preencha os dados acima para ver o resultado!
+                </p>
+            </div>
+
+        </div>
+
+
+    </main>
+
+    <footer>
+
+        <a href="https://github.com/victorconcolato"  target="_blank"><p>® Victor Concolato</p></a>
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+  body{
+            background-color: rgb(19, 112, 112);
+        }
+
+        h1{
+            color:white;
+            text-align: center;
+        }
+        #box{
+            background-color: white ;
+            box-shadow: 5px 3px 9px rgb(0, 0, 0);
+            text-align: left;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 450px;
+            height: 550px;
+            margin: auto;
+            border-radius: 10px;
+            font-size: 20px;   
+        }
+
+        #resultado{
+            
+            
+        }
+        #box>p{
+            padding-top: 10px;
+
+        }
+
+        #resultado>resposta>img{
+            
+        }
+
+        footer{
+            color: black;
+            text-align: center;
+            font-size: x-large;}
+        a:link{
+            color: purple;
+            text-decoration: none;
+        }
+        a:visited{
+            color: gray;
+        }
+        a:hover{
+            color: orangered;
+        }
